@@ -26,7 +26,7 @@ class ProductResource extends JsonResource
                         : 'No rating yet' ,
             'href' => [
                 'reviews' => route('reviews.index' , $this->id)
-            ]
+            ],
         ];
     }
 }
